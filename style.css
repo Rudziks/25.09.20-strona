@@ -1,0 +1,42 @@
+.grid-item {
+    background-color:rgba(245, 245, 245, 0.527);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 15px;
+    text-align: auto;
+   
+  }
+
+  #inputShowScore {
+      border: none;
+      border-bottom: black solid 1px;
+      width: 100%;
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+      
+  }
+  img{
+    width: 450px;
+    height: 250px;
+  }
+  .nav {
+      position: fixed;
+      top: 0;
+      z-index: 5;
+      background-color: rgba(0, 0, 0, 0.39);
+      
+    
+  }
+  .p1 {
+      display: grid;
+      grid-template-columns: auto  auto;  
+  }
+
+  body{
+      background-color: lightgray;
+  }
+
+  .btn {
+      background-color: rgba(0, 0, 0, 0.308);
+  }
